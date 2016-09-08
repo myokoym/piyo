@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 
 require "piyo"
+
+puts "piyo" * (rand(10) + 1)
