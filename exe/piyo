@@ -2,4 +2,14 @@
 
 require "piyo"
 
+require "optparse"
+
+option_parser = OptionParser.new
+option_parser.on("-v", "--version",
+                 "Show version number") do
+  puts Piyo::VERSION
+  exit
+end
+option_parser.parse!(ARGV)
+
 puts "piyo" * (rand(10) + 1)
