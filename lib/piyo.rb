@@ -1,3 +1,4 @@
+require "piyo/chick"
 require "piyo/version"
 
 module Piyo
