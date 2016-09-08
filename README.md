@@ -20,7 +20,19 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### For command
+
+    $ piyo
+    piyopiyopiyo
+
+### For library
+
+```ruby
+require "piyo"
+
+chick = Piyo::Chick.new
+chick.chirp  #=> piyopiyopiyo
+```
 
 ## Development
 
